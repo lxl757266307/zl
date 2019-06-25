@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="2dp"
+        android:background="#d1d0d0"
+        app:layout_constraintTop_toTopOf="@+id/layout_bottom" />
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/view_pager">
+
+
+        <TextView
+            android:textSize="@dimen/txt_size"
+            android:id="@+id/tv_home"
+            style="@style/viewpager_navigation_bar_tab_style"
+            android:drawableTop="@mipmap/home_blue1"
+            android:text="主页"
+            android:textColor="@color/customer_color"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:textSize="@dimen/txt_size"
+            android:id="@+id/tv_service"
+            style="@style/viewpager_navigation_bar_tab_style"
+            android:drawableTop="@mipmap/service_black1"
+            android:text="服务大厅"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:textSize="@dimen/txt_size"
+            android:id="@+id/tv_center"
+            style="@style/viewpager_navigation_bar_tab_style"
+            android:drawableTop="@mipmap/center_black1"
+            android:text="我的"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

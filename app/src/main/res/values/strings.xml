@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">OrderTaking</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login">注册</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_phone">手机号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登&#160;&#160;&#160;&#160;录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_phone">手机号码格式错误</string>
+    <string name="error_invalid_password">密码长度不得小于6</string>
+    <string name="error_invalid_type_password">密码格式数字+字符</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">必填</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="loading">loading</string>
+    <string name="work_switch">上班/下班</string>
+    <string name="take_day">请假</string>
+    <string name="many_to_many">多对多</string>
+    <string name="happyhome">快乐到家</string>
+    <string name="register">注册</string>
+    <string name="id_card">身份证号</string>
+</resources>

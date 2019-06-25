@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.org.happyhome.library">
+
+    <application>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="15a66526066fd50d45fd0b2e24f7dfc7"/>
+    </application>
+
+</manifest>

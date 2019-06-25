@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.org.happyhome.nursing">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <application>
+        <activity android:name=".activity.updatepassword.view.UpdatePasswordActivity" />
+        <activity android:name=".activity.updatephone.view.UpdatePhoneActivity" />
+        <activity android:name=".activity.addAddress.view.AddAddressActivity" />
+        <activity android:name=".activity.wxapi.WXEntryActivity" />
+        <activity android:name=".activity.address.view.AddressActivity" />
+        <activity android:name=".activity.setting.view.SettingActivity" />
+        <activity android:name=".activity.chooseservice.view.ChooseServiceActivity" />
+        <activity android:name=".activity.integral.view.IntegrealActivity" />
+        <activity android:name=".activity.appeal.view.AppealActivity" />
+        <activity android:name=".activity.orderContent.view.OrderContentActivity" />
+        <activity android:name=".activity.orderHistory.view.OrderHistoryActivity" />
+        <activity android:name=".activity.orderDetail.view.OrderHistoryDetailActivity" />
+        <activity android:name=".activity.newContent.NewContentActivity" />
+        <activity android:name=".activity.realName.view.RealNameActivity" />
+        <activity android:name=".activity.chooseServiceContent.view.ChooseServiceContentActivity" />
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="15a66526066fd50d45fd0b2e24f7dfc7" />
+
+        <service
+            android:name=".service.MyJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <!--<meta-data-->
+        <!--android:name="design_width_in_dp"-->
+        <!--android:value="720"/>-->
+        <!--<meta-data-->
+        <!--android:name="design_height_in_dp"-->
+        <!--android:value="1280"/>-->
+    </application>
+
+</manifest>

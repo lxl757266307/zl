@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        icon="@drawable/home_selector"
+        id="@+id/tab_home"
+        title="主页" />
+
+    <tab
+        icon="@drawable/service_tab"
+        id="@+id/tab_service"
+        title="服务" />
+    <tab
+        icon="@drawable/information_center"
+        id="@+id/tab_owner"
+        title="我的" />
+</tabs>
